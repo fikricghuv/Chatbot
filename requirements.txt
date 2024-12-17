@@ -9,6 +9,3 @@ langchain
 uvicorn 
 pypdf
 chromadb
-# postgre
-sqlalchemy 
-psycopg2-binary
