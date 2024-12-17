@@ -1,0 +1,14 @@
+fastapi
+pydantic
+pydantic-settings
+python-dotenv
+langchain_community
+langchain_openai
+langchain_chroma
+langchain
+uvicorn 
+pypdf
+chromadb
+# postgre
+sqlalchemy 
+psycopg2-binary
