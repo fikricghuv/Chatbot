@@ -23,15 +23,10 @@ async def root():
 @app.on_event("startup")
 async def startup_event():
     print("Application startup: All systems ready!")
+
 @app.on_event("shutdown")
 async def shutdown_event():
     print("Application shutdown: Cleaning resources!")
+
 # Register routes
 app.include_router(router, prefix="/api", tags=["ask"])
-
-# Run FastAPI server (optional untuk debugging lokal)
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
-
-
