@@ -8,6 +8,10 @@ router = APIRouter()
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+@router.get("/")
+def root():
+    return {"message": "API is running!"}
+
 @router.post("/ask")
 async def ask_question(query: QueryRequest):
     try:
