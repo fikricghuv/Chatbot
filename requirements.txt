@@ -1,11 +1,11 @@
 fastapi
-#pydantic
+pydantic
 pydantic-settings
 python-dotenv
-#langchain_community
-#langchain_openai
-#langchain_chroma
-#langchain
+langchain_community
+langchain_openai
+langchain_chroma
+langchain
 uvicorn 
-#pypdf
+pypdf
 chromadb
