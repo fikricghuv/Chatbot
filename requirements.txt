@@ -9,3 +9,5 @@ langchain
 uvicorn 
 pypdf
 chromadb
+sqlalchemy[asyncpg]
+asyncpg
